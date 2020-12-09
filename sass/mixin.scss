@@ -1,0 +1,18 @@
+@mixin transition($property, $effect) {
+  -webkit-transition: $property $effect;
+  -ms-transition: $property $effect;
+  transition: $property $effect;
+}
+
+@mixin transformscale($value){
+	-webkit-transform: scale($value);
+	-ms-transform: scale($value);
+	transform: scale($value);
+}
+
+
+@mixin transformscaleX($value){
+	-webkit-transform: scaleX($value);
+	-ms-transform: scaleX($value);
+	transform: scaleX($value);
+}
